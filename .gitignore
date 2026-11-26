@@ -1,0 +1,19 @@
+node_modules
+dist
+*.tsbuildinfo
+# 本地浏览器配置包含会话数据，不应提交到仓库。
+.edge-*/
+.firefox-*/
+.step*-profile/
+.flight-profile*/
+ .edge-test/
+
+# 本地浏览器会话和运行日志。
+.boot-browser/
+.boot-headless/
+.interaction-qa/
+.transition-qa/
+.ui-check-edge/
+.step*-firefox/
+.step*-shot*/
+.vite-server*.log
